@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+header h1 {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul a {
+    font-size: 20px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.sessão-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Imagens/PLANOS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+}
+
+.sessão-01 button {
+    width: 175px;
+    height: 40px;
+    background-color: #00000038;
+    color: rgba(255, 0, 0, 0.795);
+    border-radius: 10px;
+}
+
+.sessão-02 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #030303;
+    padding: 100px;
+}
+
+.sessão-02 img {
+    width: 200px;
+    height: 200px;
+}
+
+.sessão-02 h2 {
+    margin-left: 14px;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.sessão-02 p {
+    margin-left: 14px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.sessão-03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    background-image: url(Imagens/Fundo\ da\ netflix.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
