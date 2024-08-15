@@ -1,99 +1,152 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+* /*BORDA DO SITE*/
+{
+    margin: 0; /*Tamanho da margem do site*/
+    padding: 0; /*Retira o tamanho (Preenchimento) do Site*/
+    list-style: none; /*Remove o tipo de lista*/
 }
 
-
+/*CABEÇALHO*/
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #000000;
+    display: flex; /*Deixa as as imagnes, títulos e paragráfos flexiveis*/
+    justify-content: space-between; /*Tamanho da separação das imagens e textos*/
+    align-items: center; /*Alinhamento na vertical - Deixando no centro*/
+    background-color: #000000; /*Cor de fundo*/
 }
 
+/* LOGO */
 header img {
-    width: 200px;
-    height: 200px;
+    width: 200px; /*Largura para a imagem*/ 
+    height: 200px; /*Altura para a imagem*/
 }
 
+/* TÍTULO  */
 header h1 {
-    color: rgb(255, 0, 0);
-    font-size: 50px;
+    color: rgb(255, 0, 0); /*Cor da Letra*/
+    font-size: 70px; /*Tamanho do Título*/
 }
 
+/* LISTA NÃO ORDENADA */
 header nav ul {
-    display: flex;
+    display: flex; /*Deixa as as imagnes, títulos e paragráfos flexiveis*/
 }
 
 header nav ul a {
-    font-size: 20px;
-    margin-right: 30px;
-    text-decoration: none;
-    color: aliceblue;
+    font-size: 20px; /*Tamanho do Texto*/
+    margin-right: 30px; /*Espaçamento entre as (LI)*/
+    text-decoration: none; /*Tira o tipo de Tecto*/
+    color: aliceblue; /*Cor da Letra*/
 }
 
 
+/* PRIMEIRA SESSÃO */
 .sessão-01 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /*Deixa as as imagnes, títulos e paragráfos flexiveis*/
+    justify-content: center; /*Centraliza o texto ou imagem*/
+    align-items: center; /*Alinhamento na vertical - Deixando no centro*/
     background-image: url(Imagens/PLANOS.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 200px;
+    background-repeat: no-repeat; /*Retira a Repetição da imagem*/
+    background-size: cover; /*Fazer que a Imagem preencha o tamanho disponivel*/
+    background-position: center; /*Posição da imagem no site*/
+    padding: 200px; /*Adiciona tamanho (preenchimento) para aparecer no site*/
 }
 
+/* EDIÇÃO DO BOTÃO */
 .sessão-01 button {
-    width: 175px;
-    height: 40px;
-    background-color: #00000038;
-    color: rgba(255, 0, 0, 0.795);
-    border-radius: 10px;
+    width: 175px; /*Largura para a imagem*/ 
+    height: 40px; /*Altura para a imagem*/
+    background-color: #00000038; /*Cor de fundo*/
+    color: rgba(255, 0, 0, 0.795); /*Cor da Letra*/
+    border-radius: 15px; /*Tamanho da curvatura do botão*/
 }
 
+/* SEGUNDA SESSÃO */
 .sessão-02 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #030303;
-    padding: 100px;
+    display: flex; /*Deixa as as imagnes, títulos e paragráfos flexiveis*/
+    justify-content: space-evenly; /*Tamanho da separação das imagens e textos*/
+    align-items: center; /*Alinhamento na vertical - Deixando no centro*/
+    background-color: #030303; /*Cor de fundo*/
+    padding: 100px; /*Adiciona tamanho (preenchimento) para aparecer no site*/
 }
 
+/* EDIÇÃO DA IMAGEM */
 .sessão-02 img {
-    width: 200px;
-    height: 200px;
+    width: 200px; /*Largura para a imagem*/ 
+    height: 200px; /*Altura para a imagem*/
 }
 
+/* EDIÇÃO DO SUBTÍTULO */
 .sessão-02 h2 {
-    margin-left: 14px;
-    font-weight: bold;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: red;
+    margin-left: 14px; /*Tamanho do espaço de todos os lados*/
+    font-weight: bold; /*Preenchimento das palavras*/
+    font-size: 40px; /*Tamanho do Subtítulo*/
+    display: flex; /*Deixa as as imagnes, títulos e paragráfos flexiveis*/
+    justify-content: center; /*Centraliza o texto ou imagem*/
+    align-items: center; /*Alinhamento na vertical - Deixando no centro*/
+    color: rgb(255, 0, 0); /*Cor da Letra*/
 }
 
+/* EDIÇÃO DO PARAGRÁFO */
 .sessão-02 p {
-    margin-left: 14px;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
+    margin-left: 14px; /*Tamanho do espaço de todos os lados*/
+    font-size: 25px; /*Tamanh do texto*/
+    display: flex; /*Deixa as as imagnes, títulos e paragráfos flexiveis*/
+    justify-content: center; /*Centraliza o texto ou imagem*/
+    align-items: center; /*Alinhamento na vertical - Deixando no centro*/
+    color: aliceblue; /*Cor da Letra*/
 }
 
+/* TERCEIRA SESSÃO */
 .sessão-03 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 200px;
-    background-image: url(Imagens/Fundo\ da\ netflix.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    
+    padding: 200px; /*Adiciona tamanho (preenchimento) para aparecer no site*/
+    background-image: url(Imagens/Fundo\ da\ netflix.jpg); /*Imagem de fundo*/
+    background-repeat: no-repeat; /*Não faz que repete a Inagem*/
+    background-attachment: fixed; /*"Fixa a Imagem no fundo da página"*/ 
+    background-position: center top; /*Posição da Imagem princial*/
+    background-size: cover; /*Preenchimento da Imagem na área disponivel*/
 }
 
+/* EDIÇÃO DO SUBTÍTULO */
+.sessão-03 h2 {
+    display: flex; /*Deixa as as imagnes, títulos e paragráfos flexiveis*/
+    justify-content: center; /*Centraliza o texto ou imagem*/
+    align-items: center; /*Alinhamento na vertical - Deixando no centro*/
+    color: rgb(251, 255, 0); /*Cor da Letra*/
+    font-size: 35px; /*Tamanho do Texto*/
+}
+
+/* EDIÇÃO DO PARAGRÁFO */
+.sessão-03 p {
+    display: flex; /*Deixa as as imagnes, títulos e paragráfos flexiveis*/
+    justify-content: center; /*Centraliza o texto ou imagem*/
+    align-items: center; /*Alinhamento na vertical - Deixando no centro*/
+    color: rgb(255, 255, 255); /*Cor da Letra*/
+    font-size: 20px; /*Tamanho do Texto*/
+}
+
+/* RODAPÉ */
+footer {
+    display: flex; /*Deixa as as imagnes, títulos e paragráfos flexiveis*/
+    justify-content: center; /*Centraliza o texto ou imagem*/
+    padding: 25px; /*Adiciona tamanho (preenchimento) para aparecer no site*/
+    background-color: #030303; /*Cor de fundo*/
+}
+
+/* EDIÇÃO DA POSIÇÃO */
+footer nav ul {
+    display: flex; /*Deixa as as imagnes, títulos e paragráfos flexiveis*/
+    justify-content: center; /*Centraliza o texto ou imagem*/
+    align-items: center; /*Alinhamento na vertical - Deixando no centro*/
+}
+
+/* EDIÇÃO DA LISTA */
+footer nav ul li {
+    margin: 15px;  /*Tamanho da margem entre as palavras*/
+}
+
+/* EDIÇÃO DAS ÂNCORAS */
+footer nav ul li a {
+     text-decoration: none; /*Remove o tipo de Texto*/
+     font-weight: bold; /*Preenchimento das palavras*/
+     color: rgb(255, 0, 0); /*Cor da Letra*/
+}
