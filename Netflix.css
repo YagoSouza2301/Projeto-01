@@ -54,9 +54,10 @@ header nav ul a {
     color: aliceblue;
     /*Cor da Letra*/
 }
-header nav ul a:hover{
+
+header nav ul a:hover {
     color: rgb(255, 0, 0);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 
@@ -75,15 +76,15 @@ header nav ul a:hover{
     /*Fazer que a Imagem preencha o tamanho disponivel*/
     background-position: center;
     /*Posição da imagem no site*/
-    padding: 200px;
+    padding: 262px;
     /*Adiciona tamanho (preenchimento) para aparecer no site*/
 }
 
 /* EDIÇÃO DO BOTÃO */
 .sessão-01 button {
-    width: 175px;
+    width: 200px;
     /*Largura para a imagem*/
-    height: 40px;
+    height: 50px;
     /*Altura para a imagem*/
     background-color: #00000079;
     /*Cor de fundo*/
@@ -95,15 +96,17 @@ header nav ul a:hover{
 
 .sessão-01 button:hover {
     /*Hover permite que o elemento a qual está trabalhando tenha alguma ação ao passar o mouse*/
-    background-color: rgb(0, 0, 0);
-    /*Cor do fundo do nosso botão*/ 
-    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.856);
+    /*Cor do fundo do nosso botão*/
+    transition: 0.5s;
     /*Tempo de ação ao passar o mouse*/
     color: rgb(255, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*Fonte das letras*/
     cursor: pointer;
     /*Modifica o cursos do mouse*/
+    border-color: brown;
+    /*Modifica a cor da borda do botão ao passar o mouse*/
 }
 
 /* SEGUNDA SESSÃO */
@@ -161,8 +164,9 @@ header nav ul a:hover{
     color: aliceblue;
     /*Cor da Letra*/
 }
+
 .sessão-02 img:hover {
- /*Hover permite que o elemento a qual está trabalhando tenha alguma ação ao passar o mouse*/
+    /*Hover permite que o elemento a qual está trabalhando tenha alguma ação ao passar o mouse*/
     width: 250px;
     /*Largura para a imagem*/
     height: 250px;
@@ -170,7 +174,7 @@ header nav ul a:hover{
     transition: 1s;
     /*Tempo de ação ao passar o mouse*/
     cursor: pointer;
-     /*Modifica o cursos do mouse*/
+    /*Modifica o cursos do mouse*/
 }
 
 /* TERCEIRA SESSÃO */
@@ -255,7 +259,62 @@ footer nav ul li a {
     color: rgb(255, 0, 0);
     /*Cor da Letra*/
 }
+
 footer nav ul li a:hover {
     color: aliceblue;
     transition: 1s;
+}
+
+
+/*TELA 02 ESTILIZAÇÃO*/
+header i {
+    /*Estilizando ícone*/
+    color: aliceblue;
+    /*Cor do ícone*/
+    background-color: rgb(31, 31, 31);
+    /*Cor de fundo do elemento */
+    font-size: 40px;
+    /*Tamanho do ícone*/
+    padding: 20px;
+    /*Respiro da cor de fundo*/
+    border-radius: 50px;
+    /*Arredondamento da caixa*/
+}
+
+/*Aplicando o efeito ao passar o mouse*/
+header i:hover {
+    /*Cor de fundo alternado*/
+    background-color: #000000;
+    /*Transição do elemento*/
+    transition: 0.3s;
+}
+
+.Sessão-tela02 {
+    background-image: url(Imagens/TELA02\ FUNDO.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding: 233px;
+}
+
+.Sessão-tela02 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Sessão-tela02 span {
+    color: rgb(229, 255, 0);
+    font-weight: bold;
+}
+
+.Sessão-tela02a {
+    background-color: antiquewhite;
+}
+
+.Sessão-tela02b {
+    background-color: aliceblue;
 }
