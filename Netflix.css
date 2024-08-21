@@ -294,11 +294,10 @@ header i:hover {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    padding: 233px;
+    padding: 250px;
 }
 
 .Sessão-tela02 p {
-    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
@@ -306,15 +305,200 @@ header i:hover {
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .Sessão-tela02 span {
     color: rgb(229, 255, 0);
     font-weight: bold;
 }
 
 .Sessão-tela02a {
-    background-color: antiquewhite;
+    background: linear-gradient(180deg,#000000 27.22%, #242424 100%);
+    padding: 250px;
 }
+
+
+/* Div pai - dentro dele existe 3 caixas */
+.div-pai1 {
+    display: flex;
+    /*Tornando os itens flex, deixando as caixas lado a lado*/
+    justify-content: center;
+    /*Justificando os itens ao centro*/
+    margin-bottom: 50px;
+    /*Modificamos a margem para da espaçamento entre as caixa a baixo*/
+}
+
+/* Estilização das caixas (Div filhos) */
+.div-pai1 div {
+    width: 200px;
+    /*Larguran da caixa*/
+    height: 250px;
+    /*Altura da caixa*/
+    margin-right: 100px;
+    /*Modificamos a margem para da espaçamento a lateral das caixas*/
+    background-color: rgb(48, 48, 48);
+    /*Cor de fundo da caixa*/
+    border-radius: 20px;
+    /*Arredondamento da caixa*/
+}
+
+.div-pai1 .div-filho1 {
+    background-image: url(Imagens/FILMES/HOMEM\ ARANHA.png);
+    /*Imagem que ira aparecer ao passar o mouse*/
+    background-size: cover;
+    /*Centraliza a imagem na caixa (DIV)*/
+    background-position: center;
+    /*Posição da imagem no centro*/
+    background-repeat: no-repeat;
+    /*Tirar a repetição de imagem*/
+}
+
+.div-filho1:hover {
+    transition: 1s;
+    /*Tempo de transição ao passar o mouse*/
+    width: 200px;
+    /*Largura da Imagem*/
+    height: 250px;
+    /*Altura da Imagem*/
+    background-image: url(Imagens/x.png);
+    /*Modifica imagem ao passar o mouse*/
+}
+
+.div-pai1 .div-filho2 {
+    background-image: url(Imagens/FILMES/HOMEM\ ARANHA\ DEUS.jpg);
+    /*Imagem que ira aparecer ao passar o mouse*/
+    background-size: cover;
+    /*Centraliza a imagem na caixa (DIV)*/
+    background-position: center;
+    /*Posição da imagem no centro*/
+    background-repeat: no-repeat;
+    /*Tirar a repetição de imagem*/
+}
+
+.div-filho2:hover {
+    transition: 1s;
+    /*Tempo de transição ao passar o mouse*/
+    width: 200px;
+    /*Largura da Imagem*/
+    height: 250px;
+    /*Altura da Imagem*/
+    background-image: url(Imagens/x.png);
+    /*Modifica imagem ao passar o mouse*/
+}
+
+.div-pai1 .div-filho3 {
+    background-image: url(Imagens/FILMES/MIRANHA.jpg);
+    /*Imagem que ira aparecer ao passar o mouse*/
+    background-size: cover;
+    /*Centraliza a imagem na caixa (DIV)*/
+    background-position: center;
+    /*Posição da imagem no centro*/
+    background-repeat: no-repeat;
+    /*Tirar a repetição de imagem*/
+}
+
+.div-filho3:hover {
+    transition: 1s;
+    /*Tempo de transição ao passar o mouse*/
+    width: 200px;
+    /*Largura da Imagem*/
+    height: 250px;
+    /*Altura da Imagem*/
+    background-image: url(Imagens/ok.png);
+    /*Modifica imagem ao passar o mouse*/
+}
+
+
+.div-pai2 {
+    display: flex;
+    /*Tornando os itens flex, deixando as caixas lado a lado*/
+    justify-content: center;
+    /*Justificando os itens ao centro*/
+}
+
+.div-pai2 div {
+    width: 200px;
+    /*Larguran da caixa*/
+    height: 250px;
+    /*Altura da caixa*/
+    margin-right: 100px;
+    /*Modificamos a margem para da espaçamento a lateral das caixas*/
+    background-color: rgb(48, 48, 48);
+    /*Cor de fundo da caixa*/
+    border-radius: 20px;
+    /*Arredondamento da caixa*/
+}
+
+.div-pai2 .div-filho4 {
+    background-image: url(Imagens/FILMES/deadpool.jpg);
+    /*Imagem que ira aparecer ao passar o mouse*/
+    background-size: cover;
+    /*Centraliza a imagem na caixa (DIV)*/
+    background-position: center;
+    /*Posição da imagem no centro*/
+    background-repeat: no-repeat;
+    /*Tirar a repetição de imagem*/
+}
+
+.div-filho4:hover {
+    transition: 1s;
+    /*Tempo de transição ao passar o mouse*/
+    width: 200px;
+    /*Largura da Imagem*/
+    height: 250px;
+    /*Altura da Imagem*/
+    background-image: url(Imagens/ok.png);
+    /*Modifica imagem ao passar o mouse*/
+}
+
+.div-pai2 .div-filho5 {
+    background-image: url(Imagens/FILMES/images.png);
+    /*Imagem que ira aparecer ao passar o mouse*/
+    background-size: cover;
+    /*Centraliza a imagem na caixa (DIV)*/
+    background-position: center;
+    /*Posição da imagem no centro*/
+    background-repeat: no-repeat;
+    /*Tirar a repetição de imagem*/
+}
+
+.div-filho5:hover {
+    transition: 1s;
+    /*Tempo de transição ao passar o mouse*/
+    width: 200px;
+    /*Largura da Imagem*/
+    height: 250px;
+    /*Altura da Imagem*/
+    background-image: url(Imagens/x.png);
+    /*Modifica imagem ao passar o mouse*/
+}
+
+.div-pai2 .div-filho6 {
+    background-image: url(Imagens/FILMES/WOLVWRINE.jpg);
+    /*Imagem que ira aparecer ao passar o mouse*/
+    background-size: cover;
+    /*Centraliza a imagem na caixa (DIV)*/
+    background-position: center;
+    /*Posição da imagem no centro*/
+    background-repeat: no-repeat;
+    /*Tirar a repetição de imagem*/
+}
+
+.div-filho6:hover {
+    transition: 1s;
+    /*Tempo de transição ao passar o mouse*/
+    width: 200px;
+    /*Largura da Imagem*/
+    height: 250px;
+    /*Altura da Imagem*/
+    background-image: url(Imagens/x.png);
+    /*Modifica imagem ao passar o mouse*/
+}
+
+
 
 .Sessão-tela02b {
     background-color: aliceblue;
+    /*Cor de fundo*/
+    padding: 250px;
+    /*Preenchimento da sessão*/
 }
