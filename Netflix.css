@@ -312,7 +312,7 @@ header i:hover {
 }
 
 .Sessão-tela02a {
-    background: linear-gradient(180deg,#000000 27.22%, #242424 100%);
+    background: linear-gradient(180deg, #000000 27.22%, #242424 100%);
     padding: 250px;
 }
 
@@ -497,8 +497,48 @@ header i:hover {
 
 
 .Sessão-tela02b {
-    background-color: aliceblue;
+    background-color: #242424;
     /*Cor de fundo*/
     padding: 250px;
     /*Preenchimento da sessão*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Sessão-tela02b .div-titulo h2 {
+    color: rgb(255, 22, 22);
+    margin: 30px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.Sessão-tela02b .div-titulo p {
+    color: aliceblue;
+    margin: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+.div-iframe iframe {
+    border-radius: 15px;
+    margin-right: 30px;
+}
+
+.rodape {
+    padding: 50px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div-line img {
+    width: 150px;
+    height: 150px;
 }
