@@ -60,6 +60,9 @@ header nav ul a:hover {
     transition: 0.5s;
 }
 
+ 
+/*nos usamos o # para chamar um id*/ 
+
 
 /* PRIMEIRA SESSÃO */
 .sessão-01 {
@@ -541,4 +544,36 @@ header i:hover {
 .div-line img {
     width: 150px;
     height: 150px;
+}
+.div-line .line {
+    width: 150px;
+    height: 3px; /*Altura da linha*/
+    background-color: wheat; /*Cor de fundo da linha*/ 
+    margin-top: 7px; /*Distância entre as linhas de icones*/
+}
+
+.div-icons a {
+    text-decoration: none; /*Aqui estamos removendo o estilo padrão da âncora*/
+    color: aliceblue; /*Cor da âncora*/
+}
+
+.div-icons a i { /*Acessando o icone*/
+    background-color: rgb(48, 48, 48); /*Atribuido uma cor de fundo aos nossos icones*/
+    border-radius: 10px; /*Arredonda a borda do fundo do icone*/
+    padding: 7px; /*Aplicando um respiro (padding) dentro dos icones*/
+    font-size: 50px; /*Tamanho dos icones*/
+}
+.div-icons a i:hover { 
+    transition: 0.5s;
+    background-color: #000000;
+}
+
+.div-icons h2 { /*Estilizamos o tituloi do rodape*/
+    color: white; /*Cor da letra*/
+    font-size: 27px; /*tamamho da letra*/
+    margin-bottom: 20px; /*Margin inferior em relação o texto*/
+}
+
+html{
+    scroll-behavior: smooth;
 }

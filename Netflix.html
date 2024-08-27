@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NETFLIX</title>
+        <script src="https://kit.fontawesome.com/b61a4ed80b.js"
+        crossorigin="anonymous"></script>
         <link rel="stylesheet" href="Netflix.css">
         <link rel="shortcut icon" href="Imagens/netflix icone.png"
             type="image/x-icon">
@@ -28,10 +30,13 @@
                     <ul>
                         <li>
                             <!-- Âncora -->
-                            <a href>Sobre</a>
+                            <a href="#botao">Planos</a>
                         </li>
                         <li>
-                            <a href>Filmes</a>
+                            <a href="#inform">Informações</a>
+                        </li>
+                        <li>
+                            <a href="#conteudo">Conteúdo</a>
                         </li>
                         <li>
                             <a href>Cadastre-se</a>
@@ -43,15 +48,16 @@
             <main>
 
                 <!-- Primeira Sessão -->
-                <section class="sessão-01">
+            
+                <section class="sessão-01" id="botao">
                     <!-- Botão de interação -->
                     <a href="Tela2.html">
-                        <button type="button">Filmes e Séries</button>
+                        <button type="button">Planos</button>
                     </a>
                 </section>
 
                 <!-- Segunda Sessão -->
-                <section class="sessão-02">
+                <section class="sessão-02" id="inform">
                     <div>
                         <!-- Subtítulo -->
                         <h2>Informações</h2>
@@ -71,7 +77,7 @@
                 </section>
 
                 <!-- Terceira Sessão -->
-                <section class="sessão-03">
+                <section class="sessão-03" id="conteudo"> 
                     <!-- Subtítulo -->
                     <h2>Conteúdos</h2>
                     <!-- Paragráfo -->
@@ -88,21 +94,31 @@
             </main>
 
             <!-- RODAPÉ -->
-            <footer>
-                <!-- Lista não ordenada, juunto com a âncora -->
-                <nav>
-                    <ul>
-                        <li>
-                            <a href>Política de Privacidade</a>
-                        </li>
-                        <li>
-                            <a href>Política de Privacidade</a>
-                        </li>
-                        <li>
-                            <a href>Política de Privacidade</a>
-                        </li>
-                    </ul>
-                </nav>
-            </footer>
-        </body>
-    </html>
+            <footer class="rodape">
+
+                <div class="div-line">
+
+                    <img src="Imagens/Netflix.jpg" alt="Netflix">
+                    <hr class="line">
+                </div>
+
+                <div class="div-icons">
+
+                    <h2>Nossas Midias Sociais</h2>
+                    <!-- Lista não ordenada, juunto com a âncora -->
+                    <a href="https://www.instagram.com/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.whatsapp.com/">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.twitter.com/">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.telegram.com/">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                </div>
+                </footer>
+            </body>
+            </html>
